@@ -9,7 +9,7 @@ public class Main {
         logger.info("Inciando la aplicación");
 
         //Cración de empleados y gerentes
-        Empleado emp1 = new Empleado("Juan|", 30, 3000.0);
+        Empleado emp1 = new Empleado("Juan", 30, 3000.0);
         Gerente ger1 = new Gerente("Carlos", 40, 5000.0, "Ventas");
         
         logger.info("Informacion del empleado: " + emp1);
